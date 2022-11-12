@@ -1,0 +1,146 @@
+body{
+    margin:0;
+}
+/* Targeting whole web page  */
+.container{
+   background-color: whitesmoke;
+   width:100%;
+   height:52rem;
+   padding-top:4rem;
+}
+.form{
+    margin:auto;
+    width:21rem;
+    height:27rem;
+    border:1px solid whitesmoke;
+    background-color: white;
+    text-align: center;
+    padding:1.5rem 2rem;
+
+}
+.heading{
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5rem;
+}
+.form2{
+    padding:1rem 2rem 2rem;
+    height: 7rem;
+}
+.formdata{
+    width:15rem;
+    margin-bottom: .4rem;
+    padding:.6rem .6rem;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.form3{
+   height: 5rem;
+   margin-top:2rem;
+   text-align: center;
+}
+.fblink{
+    margin-bottom:1rem;
+}
+.fpw{
+    font-size:.9rem;
+}
+
+.formdata::placeholder{
+    font-size:.75rem;
+}
+
+.btn{
+    padding: .35rem 7rem;
+    background-color: rgb(96, 96, 234);
+    color:white;
+    border: 1px solid #D6E4E5;
+    border-radius: 5px;
+    margin-top:1rem;
+   }
+.Anchor{
+    text-decoration: none;
+}
+.horizon{
+    position: relative;
+    opacity: .7;
+    font-family: sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    padding:0 1rem;
+}
+.horizon:before{
+        content:" ";
+        height: 2px;
+        width: 110px;
+        position: absolute;
+        top:50%;
+        left: 0;
+        background-color:#D6E4E5;
+      
+}
+.horizon::after{
+    content: " ";
+    height: 2px;
+    width: 110px;
+    background-color:#D6E4E5;
+    position: absolute;
+    top:50%;
+    right:0;
+}
+.image{
+    width:1.1rem;
+    height: 1.1rem;
+    padding-right:.6rem;
+    
+}
+/* Login div */
+.login{
+    width:17rem;
+    margin:1rem auto 0 ;
+    background-color: white;
+  border: 1px solid rgb(139, 136, 136);
+  padding:.6rem 2rem;
+  text-align: center;
+}
+
+/* Get app*/
+.getApp{
+    width:17rem;
+    margin:1rem auto 0;
+    padding: .6rem 2rem;
+    text-align: center;
+}
+.Store{
+    width:7.3rem;
+    height: 3rem;
+}
+/* Footer */
+.footer{
+    width:50rem;
+    max-width: 85%;
+    margin:.6rem auto 0;
+   padding:3rem 0 0;
+}
+.footer-link{
+ font-size: .8rem;
+ text-align: center;
+ padding:.5rem 0;
+}
+.space{
+    padding-right:10px;
+}
+.space:hover{
+    text-decoration:underline;
+}
+.footer-end{
+    width:20rem;
+    text-align:center;
+    margin:auto;
+    font-size:.8rem;
+}
+#lang{
+    float:left;
+    background-color: #D6E4E5;
+    outline:none;
+    
+}
